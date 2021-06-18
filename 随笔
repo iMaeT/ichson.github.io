@@ -1,1 +1,4 @@
-
+vue：（1）mock模拟拦截请求有时会导致一些请求无法正常发出，比如
+post请求下载Excel文件，后端无法收到参数，此时需要注释掉
+mock的拦截，before还是after配置的时候；
+（2）swiper.js 使用时，切换器样式需要调整时，style不能是scoped。
