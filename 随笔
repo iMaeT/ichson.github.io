@@ -4,10 +4,6 @@ vue：
 mock的拦截，before还是after配置的时候；
 （2）swiper.js 使用时，切换器样式需要调整时，style不能是scoped。
 
-js: 三目运算条件判断，当条件为 0 时，eg: var a = 0;
-var b = a ? 2 : 9;此时 b 的值为 2.因为 a 是存在的，
-不为false，除非 a 的值为false，Null或者undefined。
-
 crc32：两种多项式，结果不同，一种是正序，一直是反向，一般硬件是反向，比如c
 对应js crc在线计算器的————crc32 MPEG 格式。具体再搜搜
 
